@@ -1,0 +1,87 @@
+canonical_identifier: bkk:krp/KR6e0074/v1
+canonical_location: https://kanripo.org/bkk/KR6e0074/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 華嚴一乘教義分齊章
+  identifiers:
+    alt_id:
+    - T45n1866
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T45/T45n1866.xml
+    old_id: T45n1866
+  edition:
+    short: bkk
+editions:
+- short: 甲
+  label: 甲
+  source_xml_id: wit1
+- short: 乙
+  label: 乙
+  source_xml_id: wit2
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 丙
+  label: 丙
+  source_xml_id: wit3
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6e0074_000.yaml, hash: 'sha256:6b5248efe0a8780c14e93a5c4b31903ce389d8a17edc5aa2c1d8f54454e2a908'}
+  - {seq: 1, filename: KR6e0074_001.yaml, hash: 'sha256:7ffbf26ee73e887e9905ae70ec2f18b176b9b7925c1f873b0b8d9dd504bc2de1'}
+  - {seq: 2, filename: KR6e0074_002.yaml, hash: 'sha256:df7d12e1d603e54de9b8c77bc5d27e1a08a975f845abf4acc8f80c8f7ac2d035'}
+  - {seq: 3, filename: KR6e0074_003.yaml, hash: 'sha256:0cfe5988c4227dce71e0c0eeb56932b3aea753558efac132b4f5fb16b359513d'}
+  - {seq: 4, filename: KR6e0074_004.yaml, hash: 'sha256:2f9c9cea8ef64df2142fa3c487d657abe7f97e7e3a96408327794aa84d77136f'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6e0074_001.markers.yaml, hash: 'sha256:3b15a52cdc2652dcb9addd209284268ae8111b3033e8a2dc335db3dc4d1e7c07'}
+  - {seq: 2, role: markers, filename: assets/KR6e0074_002.markers.yaml, hash: 'sha256:372916366349ab68870b8940228e48025bb95e0342f4a4977a8b9316ab66a150'}
+  - {seq: 3, role: markers, filename: assets/KR6e0074_003.markers.yaml, hash: 'sha256:9a05c07688cfb6adfe1f229d0db6f20834cf81ed838952f1d37cab2fdc14ab66'}
+  - {seq: 4, role: markers, filename: assets/KR6e0074_004.markers.yaml, hash: 'sha256:5be0b3c33910a1502fc4690faaadb613114e3eff26eaef27648314ac59d2f018'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6e0074_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 9866
+  label: 華嚴一乘教義分齊章卷第一
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6e0074_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 9772
+  label: 華嚴一乘教義分齊章卷第二
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6e0074_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 9653
+  label: 華嚴一乘教義分齊章卷第三
+  type: juan
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6e0074_T_004-juan-start
+    span:
+    - body
+    - 0
+    - 13116
+  label: 華嚴一乘教義分齊章卷第四
+  type: juan
+  level: 1
+hash: sha256:a4b9a65cb4f007a08469fa653adb87d3f9fb60ce205c914ee2f418f4b98b2ad8
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
